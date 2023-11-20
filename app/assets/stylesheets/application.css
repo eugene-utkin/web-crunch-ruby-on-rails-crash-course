@@ -13,3 +13,26 @@
  *= require_tree .
  *= require_self
  */
+
+.custom-button {
+  color:#485fc7;
+  cursor: pointer;
+  text-decoration: none;
+  align-items: center;
+  display: flex;
+  flex-basis: 0;
+  flex-grow: 1;
+  flex-shrink: 0;
+  justify-content: center;
+  padding: 0.75rem 1.024rem;
+  border: 0;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.5;
+  background-color: #fff;
+  box-sizing: inherit;
+}
+
+.custom-button:hover {
+  color: #4a4a4a;
+}
